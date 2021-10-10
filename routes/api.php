@@ -21,10 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get("/get", [ProdcutController::class, "test"]);
 
-<<<<<<< HEAD
 Route::get("/test2", [ProdcutController::class, "test2"]);
 Route::get("/test3", [ProdcutController::class, "test3"]);
 Route::get("/test4", [ProdcutController::class, "test4"]);
-=======
-
->>>>>>> 9a20876ffffced5a92b4fa060d402cd595bc1dfd
+Route::get("/test4", [ProdcutController::class, "test54"]);
