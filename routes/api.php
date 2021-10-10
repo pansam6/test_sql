@@ -23,3 +23,4 @@ Route::get("/get", [ProdcutController::class, "test"]);
 
 Route::get("/test2", [ProdcutController::class, "test2"]);
 Route::get("/test3", [ProdcutController::class, "test3"]);
+Route::get("/test4", [ProdcutController::class, "test4"]);
