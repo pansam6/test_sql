@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get("/get", [ProdcutController::class, "test"]);
 
 Route::get("/test2", [ProdcutController::class, "test2"]);
+Route::get("/test3", [ProdcutController::class, "test3"]);
